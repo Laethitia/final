@@ -1,0 +1,15 @@
+<h1> Hello edit</h1>
+
+<h2> I should be showing an editing form </h2>
+<div ng-submit="updatePost()">
+
+	<form method="put">
+		<input type="text" name="Name" ng-model="post.name">
+		<input type="text" name="Age" ng-model="post.age">
+		<input type="text" name="Occupation" ng-model="post.occupation">
+		<input type="submit">
+	</form>
+
+	<button ng-click="deletePost()"> Efface La Poste </button>
+	
+</div>
